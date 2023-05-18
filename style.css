@@ -1,0 +1,32 @@
+.header{
+    padding: 8px 60px;
+    border-bottom: 2px solid gray;
+
+}
+
+body{
+    margin:0;
+    padding:0;
+}
+
+.header h1{
+    font-size: 150;
+    font-weight: 300;
+
+}
+
+.main{
+    padding: 0 60px;
+}
+
+.todo{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    margin-bottom: 10px;
+    gap:5px
+}
+
+.cut{
+    text-decoration:line-through
+}
